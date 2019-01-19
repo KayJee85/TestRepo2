@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{31F26CC6-2CD9-4076-8135-3C6601371E84}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="RaggedRight"
+      DTS:LocaleID="1033"
+      DTS:HeaderRowDelimiter="_x0009_"
+      DTS:RowDelimiter="_x000A_"
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="D:\Users\kamil.grad\Desktop\70767DataWarehouse-master\auto-mpg.data.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="7"
+          DTS:DataType="3"
+          DTS:ObjectName="mpg"
+          DTS:DTSID="{27E7F1CC-ECD4-4343-8490-5327526725E0}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="4"
+          DTS:DataType="3"
+          DTS:ObjectName="cylinders"
+          DTS:DTSID="{9EE4D443-C213-40A8-9E36-4D7CFD3731F4}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="11"
+          DTS:DataType="3"
+          DTS:ObjectName="displacement"
+          DTS:DTSID="{F35422FA-66FB-43DC-94CD-7AE007329F63}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="11"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="horsepower"
+          DTS:DTSID="{515BEFA9-216A-427A-BB2D-06C770C5E638}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="11"
+          DTS:DataType="3"
+          DTS:ObjectName="weight"
+          DTS:DTSID="{56D16D91-635F-4313-8F17-0E763A8B35A6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="7"
+          DTS:DataType="14"
+          DTS:ObjectName="acceleration"
+          DTS:DTSID="{BAEA6D2C-5DB6-48B6-B298-6BE48996734C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="4"
+          DTS:DataType="3"
+          DTS:ObjectName="model year"
+          DTS:DTSID="{21F75EAC-EF45-420A-B1C3-B58581B11133}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="1"
+          DTS:DataType="3"
+          DTS:ObjectName="origin"
+          DTS:DTSID="{13904ABD-9286-4616-ABB6-5334C926E297}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000A_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="car name"
+          DTS:DTSID="{78008822-0901-4376-86ED-FB6D8254A4E8}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
